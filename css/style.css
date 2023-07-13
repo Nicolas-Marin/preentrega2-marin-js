@@ -1,0 +1,16 @@
+.color{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+}
+.tittle{
+    color: red;
+    font-size: 6rem;
+    text-shadow: 2px 2px 2px white;
+}
