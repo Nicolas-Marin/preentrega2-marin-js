@@ -1,10 +1,20 @@
-alert("Comienza la aventura!");
-alert("Eres el general del estado Wei de la China antigua");
-alert("Te enfrentas contra el ejército descendiente de Sun Tzu");
-alert("¿PODRÁS GANAR LA GUERRA?");
-alert("Tu oponente Sun Pin es el general del estado de Qi y tiene menos tropas");
-alert("El ejército de Qi es conocido por ser cobarde, tus hombres se sienten confiados");
-alert("Elije\n1 - Preparar un ataque\n2 - Esperar al movimiento del enemigo");
+function iniciarAventura() {
+  const mensajes = [
+    "Comienza la aventura!",
+    "Eres el general del estado Wei de la China antigua",
+    "Te enfrentas contra el ejército descendiente de Sun Tzu",
+    "¿PODRÁS GANAR LA GUERRA?",
+    "Tu oponente Sun Pin es el general del estado de Qi y tiene menos tropas",
+    "El ejército de Qi es conocido por ser cobarde, tus hombres se sienten confiados",
+    "Elige\n1 - Preparar un ataque\n2 - Esperar al movimiento del enemigo"
+  ];
+
+  for (let mensaje of mensajes) {
+    alert(mensaje);
+  }
+}
+
+iniciarAventura();
 
 let num1 = parseInt(prompt("Ingrese un número"));
 
