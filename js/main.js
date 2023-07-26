@@ -13,7 +13,7 @@ usuario.solicitarDatos();
 function iniciarAventura() {
   const mensajes = [
     "Comienza la aventura!",
-    `Eres el general ${usuario.nombre} del estado de la China antigua`,
+    `Eres el general ${usuario.nombre} del estado de la China antigua (Año 1912)`,
     "Te enfrentas contra el ejército descendiente de Sun Tzu",
     "¿PODRÁS GANAR LA GUERRA?",
     "Tu oponente Sun Pin es el general del estado de Qi y tiene menos tropas",
@@ -95,10 +95,10 @@ switch (num4) {
 
     let num5 = parseInt(prompt("Ingrese un número"));
     if (num5 == 1) {
-      alert(`Tu arrogancia te llevo a perder la guerra.\n Atacar primero te puso en desventaja \n\n GUERRA PERDIDA QEPD ${usuario.nombre}  ${(usuario.edad -2023)*-1} - 2023`);
+      alert(`Tu arrogancia te llevo a perder la guerra.\n Atacar primero te puso en desventaja \n\n GUERRA PERDIDA QEPD ${usuario.nombre}  ${(usuario.edad -1912)*-1} - 1912`);
       console.log("Juego finalizado \n Gracias por jugar");
     } else {
-      alert(`Sun Pin no tuvo piedad y terminó contigo..\n Atacar primero te puso en desventaja \n\n ${usuario.nombre}  ${(usuario.edad -2023)*-1} - 2023\n Murio como un Cobarde`);
+      alert(`Sun Pin no tuvo piedad y terminó contigo..\n Atacar primero te puso en desventaja \n\n ${usuario.nombre}  ${(usuario.edad -1912)*-1} - 1912\n Murio como un Cobarde`);
       console.log("Juego finalizado \n Gracias por jugar");
     }
     break;
