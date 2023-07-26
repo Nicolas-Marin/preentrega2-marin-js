@@ -98,7 +98,7 @@ switch (num4) {
       alert(`Tu arrogancia te llevo a perder la guerra.\n Atacar primero te puso en desventaja \n\n GUERRA PERDIDA QEPD ${usuario.nombre}  ${(usuario.edad -1912)*-1} - 1912`);
       console.log("Juego finalizado \n Gracias por jugar");
     } else {
-      alert(`Sun Pin no tuvo piedad y terminó contigo..\n Atacar primero te puso en desventaja \n\n ${usuario.nombre}  ${(usuario.edad -1912)*-1} - 1912\n Murio como un Cobarde`);
+      alert(`Sun Pin no tuvo piedad y terminó contigo..\n Atacar primero te puso en desventaja \n\n ${usuario.nombre},  Murio como un Cobarde \n ${(usuario.edad -1912)*-1} - 1912`);
       console.log("Juego finalizado \n Gracias por jugar");
     }
     break;
