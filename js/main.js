@@ -63,14 +63,14 @@ while (num2 !== 1) {
   alert("Tu ejército está listo para atacar\nElije: \n1 - Atacar por la noche\n2 - Esperar al amanecer");
   num2 = parseInt(prompt("Ingrese otro número"));
 }
-alert("Durante la noche se encienden hogeras en las fronteras de tu territorio\n\n Elije: \n1 - Ir a investigar \n2 - Esperar");
+alert("Durante la noche se encienden hogueras en las fronteras de tu territorio\n\n Elije: \n1 - Ir a investigar \n2 - Esperar");
 
 let num3 = parseInt(prompt("Ingrese un número"));
 
 while (num3 !== 2) {
   switch (num3) {
     case 1:
-      alert("Las hogeras provenian del ejercito de Qi");
+      alert("Las hogueras provenian del ejercito de Qi");
       alert(`${usuario.nombre} muerió a la edad de ${usuario.edad} años 💀`)
       break;
     default:
@@ -78,7 +78,7 @@ while (num3 !== 2) {
       break;
   }
 
-  alert("Durante la noche se encienden hogeras en las fronteras de tu territorio\n\n Elije: \n1 - Ir a investigar \n2 - Esperar");
+  alert("Durante la noche se encienden hogueras en las fronteras de tu territorio\n\n Elije: \n1 - Ir a investigar \n2 - Esperar");
   num3 = parseInt(prompt("Ingrese otro número"));
 }
 alert("La gente empieza a dudar de tí\n Tropas: \n No podemos darle a Qi la ventaja de atacar primero");
