@@ -2,7 +2,6 @@ const usuario = {
   nombre: "",
   edad: 0,
 
-  // Paso 2: Utilizar el método prompt para obtener los datos del usuario
   solicitarDatos: function () {
     this.nombre = prompt("Ingresa tu nombre:");
     this.edad = parseInt(prompt("Ingresa tu edad:"));
@@ -22,9 +21,9 @@ function iniciarAventura() {
     "Elige\n1 - Preparar un ataque\n2 - Esperar al movimiento del enemigo"
   ];
 
-  for (let mensaje of mensajes) {
+  mensajes.forEach((mensaje) => {
     alert(mensaje);
-  }
+  });
 }
 
 iniciarAventura();
